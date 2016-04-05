@@ -28,6 +28,7 @@ In one shell
 	cd music
 	lein live
 	(use 'overtone.live)
+	(use 'overtone.inst.piano)
 
 In another shell
 
