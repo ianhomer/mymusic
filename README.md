@@ -9,6 +9,7 @@ My Live Coding Music.
 * https://github.com/overtone/overtone
 * https://github.com/overtone/emacs-live
 * http://overtone.github.io/emacs-live/doc-clojure-connection.html
+* https://github.com/overtone/overtone/wiki/Installing-Overtone
 
 This is how I do it 
 
@@ -30,7 +31,21 @@ In one shell
 
 In another shell
 
-	emacs
+	emacs scratch.clj
 	M-x cider-connect RET RET
 	M-x cider-mode
+	
+	
+# Cheat Sheet
+
+| Close current window 			| C-x C-0 				|
+| Run commands up to buffer 	| C-c C-c 				|
+| Stop all synths 				| M-x > AND C-c C-c 	|
+| Kill line                     | C-k    				|
+| Undo                          | C--                   |
+
+
+# Example Code
+
+* https://github.com/overtone/overtone/wiki/Metronome-and-sequencing
 	
