@@ -19,6 +19,9 @@ This is how I do it
 Add to .profile
 	
     alias emacs="/usr/local/Cellar/emacs/24.5/bin/emacs"
+	
+Copy lein profile into place
+	
 	cp profiles.clj ~/.lein/profiles.clj
 
 # Run
