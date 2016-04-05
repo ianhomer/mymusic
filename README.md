@@ -39,6 +39,8 @@ In another shell
 	
 # Cheat Sheet
 
+| Description 					| Command				|
+|-------------------------------|-----------------------|
 | Close current window 			| C-x C-0 				|
 | Run commands up to buffer 	| C-c C-c 				|
 | Stop all synths 				| M-x > AND C-c C-c 	|
